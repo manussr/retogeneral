@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section{
+    padding-bottom: 50px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 70%;
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
+    font-family: "sans serif";
+    font-size: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: green;
+}
+
+.actions {
+    width: 15%;
+}
+
+.actions > * {
+    padding: 10px;
+}
+
+.actions > button:hover {
+    background-color: aqua;
+}
+
+#logo {
+    width: 15%;
+}
+
+button {
+    font-family: "sans serif";
+    color: white;
+    background-color: green;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.actions > a {
+    color: green;
+}
+
+/*Estilos features*/
+.features{
+    text-align: center;
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .img-ft{
+    width: 100%;
+    height: auto
+  }
+  
+  .features > h1 {
+    font-size: 55px;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400!important;
+  }
+/*Estilos tools*/
+.container{
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-between;
+    align-content: center; 
+}
+
+.item{
+    background-color: #fff;
+    width: 275px;
+    height: 300px;
+    padding: 50px 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    border: 1px solid #dadada;
+}
+
+.title{
+    text-align: center;
+    color: #025157;
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+}
+
+.content{
+    text-align: center;
+}
+
+.icon{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #025157;
+}
+
+.product-feature-img{
+    max-width: 38px;
+    height: auto;
+}
+
+/*Estilos Footer*/
+.container-green{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #025157;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 80px;
+    color: #FFF;
+    border-radius: 10px;
+  }
+  
+  .green{
+    color: #6abf4b;
+  }
+  
+  .col-container-1{
+    width: 66%;
+    display: block;
+  }
+  
+  
+  .col-container{
+    color: #c8c8c8;
+  }
+  
+  .col-container > button{
+    background-color: #67b54b;
+    color: #fff;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
